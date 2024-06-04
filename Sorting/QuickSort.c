@@ -32,7 +32,7 @@ int partition(int arr[], int lb, int ub) {
 // QuickSort function
 void quickSort(int arr[], int lb, int ub) {
     if (lb < ub) {
-        // loc is partitioning index, arr[pi] is now at right place
+        // loc is partitioning index, arr[loc] is now at right place
         int loc = partition(arr, lb, ub);
 
         // Separately sort elements before partition and after partition
